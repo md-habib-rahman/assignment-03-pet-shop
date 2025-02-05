@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- fontawesome kit link -->
+	<script src="https://kit.fontawesome.com/9aa14f0798.js" crossorigin="anonymous"></script>
+	<!-- google font link -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
+		rel="stylesheet">
+	<!-- tailwind cdn -->
+	<script src="https://cdn.tailwindcss.com"></script>
+
+
+	<style>
+		.font-adlam {
+			font-family: "ADLaM Display", serif;
+
+		}
+
+		.font-sora {
+			font-family: "Sora", serif;
+		}
+	</style>
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					colors: {
+						'accent': '#FFDC26',
+						'primary-fill': '#FFF9F4',
+						'primary-font': '#111111',
+						'card-fill': '#F9DF8A',
+					}
+				}
+			}
+		}
+	</script>
+</head>
+
+<body class="font-sora text-primary-font">
+	<header>
+		<nav class="bg-primary-fill ">
+			<div class="lg:max-w-7xl lg:mx-auto px-2 md:px-2 py-4 flex justify-between items-center ">
+				<div class="flex gap-4 items-center">
+					<img src="./assets/logo-header.png" alt="">
+					<h2 class="hidden md:block md:text-3xl">Browse<span class="text-accent">4</span>Pets</h2>
+				</div>
+				<div>
+					<ul class="hidden md:flex text-xl gap-6 items-center">
+						<li><a href="">Find a pet</a></li>
+						<li><a href="">Breeds</a></li>
+						<li><a href="">Contact us</a></li>
+					</ul>
+				</div>
+				<div class="hidden md:flex text-xl gap-1 items-center">
+					<a href="#"><img class="w-2/4" src="./assets/icons/icons8-bell-50.png" alt=""></a>
+					<a href="#"><img class="w-2/4" src="./assets/icons/icons8-search-50.png" alt=""></a>
+					<button class="rounded-lg py-2.5 px-7 border-2 border-accent bg-white">Login</button>
+					<button class="rounded-lg bg-accent py-2.5 px-7 border-2 border-accent">Register</button>
+
+				</div>
+				<div class="md:hidden">
+					<img src="./assets/icons/icons8-menu-48.png" alt="">
+				</div>
+			</div>
+
+		</nav>
+		<!-- banner starts here -->
+		<div class="lg:max-w-7xl lg:mx-auto space-y-4 py-24">
+			<div class="flex flex-col items-center gap-8 px-4 lg:px-0 relative">
+				<div class="w-full z-10 space-y-4">
+					<h1 class="font-adlam sm: text-4xl lg:text-6xl font-bold">Pamper Your Pet, <br>Because They
+						Deserve <br>the Best</h1>
+					<p class="text-sm lg:text-xl lg:leading-9 max-w-2xl">Discover a world of treats, toys, and
+						essentials
+						handpicked for
+						your
+						furry
+						friends.
+						Shop
+						now and make
+						tails wag with joy!
+					</p>
+					<button class="rounded-lg bg-accent py-2.5 px-7 border-2 border-accent">Find a pet</button>
+				</div>
+
+				<div class="absolute mt-28 md:mt-0">
+					<img class="w-full" src="./assets/cat-big.png" alt="">
+				</div>
+
+			</div>
+
+		</div>
+	</header>
+	<!-- main section starts here -->
+	<main>
+		<section class="lg:max-w-7xl lg:mx-auto">
+			<h3 class="font-adlam">
+				Browse By Categories
+			</h3>
+			<div>
+				<div>
+					<img src="" alt="">
+					<h4>Dog</h4>
+					<p></p>
+				</div>
+				<div>
+					<img src="" alt="">
+					<h4>Fish</h4>
+					<p></p>
+				</div>
+				<div>
+					<img src="" alt="">
+					<h4>Cat</h4>
+					<p></p>
+				</div>
+				<div>
+					<img src="" alt="">
+					<h4>Birds</h4>
+					<p></p>
+				</div>
+				<div>
+					<img src="" alt="">
+					<h4>Small Pet</h4>
+					<p></p>
+				</div>
+				<div>
+					<img src="" alt="">
+					<h4>Rabit</h4>
+					<p></p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+</body>
+
+</html>
